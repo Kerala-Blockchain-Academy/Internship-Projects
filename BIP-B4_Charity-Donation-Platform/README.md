@@ -1,6 +1,6 @@
 # Charity Donation Tracking System
 
-This is a project submitted by #Arsha Karma(https://github.com/Arsha-Karma) , #Aleena Joseph & #Deepthi C D as a part of their 3-month Blockchain Internship program under the guidance of #Lekshmi P G (https://github.com/pglekshmi)
+This is a project submitted by # Arsha Karma(https://github.com/Arsha-Karma) , # Aleena Joseph & # Deepthi C D as a part of their 3-month Blockchain Internship program under the guidance of # Lekshmi P G (https://github.com/pglekshmi)
 The **Charity Donation Tracking System** is a decentralized application (DApp) that allows transparent and secure charity donations using **Ethereum smart contracts**. It consists of two parts:
 1. **Smart contracts** deployed using **Hardhat**.
 2. **Frontend** built with **React**.
