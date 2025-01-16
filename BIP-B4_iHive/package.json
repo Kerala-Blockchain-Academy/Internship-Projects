@@ -1,0 +1,20 @@
+{
+  "name": "ihive",
+  "version": "1.0.0",
+  "description": "This repository showcases our project developed during our internship at <a href=\"https://github.com/Kerala-Blockchain-Academy\" target=\"_blank\">Kerala-Blockchain-Academy</a>. It is an idea-patenting platform built using blockchain technology.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^5.0.0",
+    "hardhat": "^2.22.13"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "ethers": "^6.13.4",
+    "firebase": "^11.0.2"
+  }
+}

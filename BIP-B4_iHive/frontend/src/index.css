@@ -1,0 +1,252 @@
+/* Body and Background */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Arial', sans-serif;
+  background-color: #1c1c1c; /* Uniform dark background */
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+/* General Idea Page Container */
+.idea-page {
+  width: 100%;
+  min-height: calc(100vh - 64px); /* Adjust for the nav bar height */
+  background-color:#1c1c1c; /* Uniform dark background */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 40px;
+}
+
+/* Flex Container for Buttons and Search Bar */
+.main-actions {
+  display: flex;
+  gap: 24px; /* Space between the elements */
+  align-items: center;
+}
+
+/* Submit Idea Button */
+.submit-button {
+  padding: 16px 32px;
+  font-size: 1.2rem;
+  font-weight: bold;
+  background: linear-gradient(to right, #7a4df7, #00aaff);
+  color: white;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+.submit-button:hover {
+  transform: scale(1.05);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.5);
+}
+
+/* Search Bar */
+.search-bar-container {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  position: relative;
+}
+
+.search-bar-container i {
+  color: #30ff2d;
+  font-size: 1.5rem;
+  transition: opacity 0.3s ease;
+}
+
+.search-bar-container input {
+  padding: 12px;
+  font-size: 1rem;
+  color: #30ff2d;
+  background-color: #2d2d2d;
+  border: 2px solid #2dff5a;
+  border-radius: 50px;
+  width: 120px;
+  transition: width 0.4s ease, background-color 0.3s ease;
+}
+
+.search-bar-container input:focus {
+  outline: none;
+  background-color: #3b3640;
+}
+
+.search-bar-container input:focus + button {
+  opacity: 1;
+}
+
+.search-bar-container button {
+  padding: 10px 20px;
+  font-size: 1rem;
+  background-color: #0077ff;
+  color: white;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  opacity: 0;
+}
+
+.search-bar-container button:hover {
+  background-color: #0066cc;
+  transform: scale(1.05);
+}
+
+/* Hover Effects */
+.search-bar-container:hover i {
+  opacity: 0;
+}
+
+.search-bar-container:hover input {
+  width: 300px;
+}
+
+.search-bar-container:hover button {
+  opacity: 1;
+}
+
+
+/* App.css */
+
+/* General Layout for App */
+.app-container {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background:  #1c1c1c; /* Blue Gradient */
+  color: white;
+}
+
+/* Connect Wallet Button Styling */
+.wallet-button {
+  padding: 16px 32px;
+  font-size: 18px;
+  font-weight: 600;
+  color: #ffffff;
+  background: linear-gradient(to right, #7e3af2, #3b82f6); /* Purple to Blue Gradient */
+  border: none;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.wallet-button:hover {
+  transform: scale(1.05);
+  box-shadow: 0 6px 8px rgba(0, 0, 0, 0.2);
+}
+
+.wallet-button:focus {
+  outline: none;
+  box-shadow: 0 0 0 4px  #1c1c1c;
+}
+
+/* For the IdeaPage Component, add similar styling as needed */
+
+
+/* Body and Background */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Arial', sans-serif;
+  background-color: #1c1c1c; /* Uniform dark background */
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+/* Idea Submission Container */
+.idea-submission-container {
+  width: 100%;
+  max-width: 850px;
+  background-color: #2d2d2d;
+  padding: 20px;
+  border-radius: 8px;
+  margin: auto;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+  text-align: center;
+}
+
+/* Heading */
+.idea-submission-container h1 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  color: #30ff2d; /* Light yellow for the title */
+}
+
+/* Form Input Styles */
+.input-group {
+  margin-bottom: 15px;
+  text-align: left;
+}
+
+.input-group label {
+  font-size: 1rem;
+  color: #30ff2d;
+}
+
+.input-group input,
+.input-group textarea {
+  width: 90%;
+  padding: 12px;
+  font-size: 1rem;
+  color: #fff;
+  background-color: #3b3640;
+  border: 2px solid #30ff2d;
+  border-radius: 8px;
+  transition: all 0.3s ease;
+}
+
+.input-group input:focus,
+.input-group textarea:focus {
+  outline: none;
+  border-color: #7a4df7;
+  background-color: #4c4554;
+}
+
+.input-group textarea {
+  resize: vertical;
+  height: 120px;
+}
+
+/* Submit Button */
+button {
+  background-color: #7a4df7; /* Purple Gradient */
+  color: white;
+  border: none;
+  padding: 12px 24px;
+  font-size: 1.2rem;
+  cursor: pointer;
+  border-radius: 8px;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+button:hover {
+  transform: scale(1.05);
+  background-color: #4a29e0; /* Darker purple on hover */
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.5);
+}
+
+/* Success Page Container */
+.success-container {
+  text-align: center;
+  padding: 20px;
+  border: 2px solid #4CAF50;
+  border-radius: 8px;
+  max-width: 600px;
+  margin: auto;
+  background-color: #e8f5e9;
+  color: #4CAF50;
+}
